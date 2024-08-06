@@ -1,0 +1,49 @@
+PRUEBA DIAGNOSTICA
+Tadeo ki, Juan Martinez, Maria Noel Pietro, Julian Bevc
+
+
+Parte 1:
+
+Funcion Horas:
+para cada hora sumar a sumaTotal
+promedio = sumaTotal / 7
+agrego el resultado a la lists
+return promedioHora
+
+Promedio de Dias:
+para cada cada dia sumar a sumaDia
+promedio = sumaDia / 24
+Agrego el resultado a la lista
+return promedioDia
+
+
+Funcion hay negativos:
+para cada dia
+  para cada hora
+   si temp < 0 
+   hayNegativo = true
+   return true
+return false
+
+Parte 2:
+
+a) Sumatoria de 1 a n
+
+b)
+C#
+x = 0
+while (i <= n) {
+  x = x + i
+  i = i + 1
+}
+
+Java
+int x = 0
+while (i <= n) {
+  x += i
+  i += 1
+}
+
+c) Con un while true con condicion si i < n+1
+
+d) Si en la función anterior se conoce el valor de n=1000 ¿qué valor de x resultará? 500500
