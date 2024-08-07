@@ -1,0 +1,15 @@
+Identifique los tipos de las siguientes sentencias:
+1. aValue = 8933.234;   
+2. aValue++;
+3. System.out.println("Hello World!");
+4. Bicycle myBike = new Bicycle();
+a) Incremento
+b) Asignación
+c) Creación de objeto
+d) Invocación de método
+
+respuestas:
+1-B
+2-a
+3-D
+4-C

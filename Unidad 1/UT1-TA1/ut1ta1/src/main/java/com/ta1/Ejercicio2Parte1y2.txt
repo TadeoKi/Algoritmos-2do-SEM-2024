@@ -1,0 +1,55 @@
+UT1-TA1 Ejercicio 2 
+Parte 1:
+
+Original:
+class ArithmeticDemo {
+ public static void main (String[] args){
+
+     int result = 1 + 2;    
+     System.out.println(result);
+
+     result = result - 1;
+     System.out.println(result);
+
+     result = result * 2;
+     System.out.println(result);
+
+     result = result / 2;
+     System.out.println(result);
+
+     result = result + 8;
+     result = result % 7;
+     System.out.println(result);
+ }
+}
+
+Modificado:
+
+class ArithmeticDemo {
+ public static void main (String[] args){
+
+     int result = 3;    
+     System.out.println(result);
+
+     result -= 1;
+     System.out.println(result);
+
+     result *= 2;  |  result <<= 1;
+     System.out.println(result);
+
+     result /=2;    | result >>= 1;
+     System.out.println(result);
+
+     result += 8;
+     result %= 7;
+     System.out.println(result);
+ }
+}
+
+Parte 2:
+
+el i al tener los dos signos delante de la variable, se vera incrementado antes de que se use su valor.
+Primero se incrementara y luego se utiliza el valor ya incrementado.
+Obteniendo por resultado final 9.
+
+
