@@ -1,0 +1,42 @@
+Lecturas complementarias
+
+Lectura materiales Oracle: http://docs.oracle.com/javase/tutorial/java/index.html
+
+Básicas de Java: http://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html
+	Variables
+	Operadores
+	Expresiones, bloques y sentencias
+	Sentencias de control de flujo
+
+Clases y objetos : http://docs.oracle.com/javase/tutorial/java/javaOO/index.html (leer solo categorías Classes, Objects y More on Classes)
+	Clases
+	Objetos
+	Referencias
+
+Números y strings : http://docs.oracle.com/javase/tutorial/java/data/index.html
+
+------------------------------------------
+
+Libro "Pensando la computación como un científico - JAVA 
+
+Cadenas: págs. 91 - 99  
+
+Arreglos, págs. 137 - 147 
+
+Entrada / salida en Java: págs. 317-318 
+
+------------------------------------------
+
+Web 
+
+The Java Tutorial - Oracle http://docs.oracle.com/javase/tutorial/java/index.html 
+
+Clases y objetos : http://docs.oracle.com/javase/tutorial/java/javaOO/index.html (leer solo categorías Classes, Objects y More on Classes) 
+
+Strings: http://docs.oracle.com/javase/tutorial/java/data/strings.html 
+
+Characters: http://docs.oracle.com/javase/tutorial/java/data/characters.html 
+
+Numbers: http://docs.oracle.com/javase/tutorial/java/data/numbers.html 
+
+https://www.udacity.com/course/cs046

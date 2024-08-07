@@ -1,0 +1,19 @@
+Conceptos generales:Introducción, conceptos generales y entorno Java - Páginas 1 a 3 y 19 a 20
+
+Específicos de concepto:
+
+Variables - Paginas 22 a 25
+Operadores - Páginas 25 a 28
+Estructuras de programación - Páginas 29 a 30
+	Bifurcaciones
+	IF
+	IF ELSE
+	IF ELSE IF ELSE
+	SWITCH
+Bucles - Páginas 31 a 32
+	While
+	For
+	Do while
+
+Estándares de Codificación en Java: 
+	https://www.oracle.com/technetwork/java/codeconventions-150003.pdf 
