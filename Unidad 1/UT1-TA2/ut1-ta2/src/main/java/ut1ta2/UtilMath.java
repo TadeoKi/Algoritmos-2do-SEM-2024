@@ -13,6 +13,14 @@ public final class UtilMath {
         System.out.println("Hello World!");
     }
 
+    public static int factorial (int num){
+        int result = 1;
+        for (int i = 1; i <= num; i++ ){
+            result *= i;
+        }
+        return result;
+    }
+
     public static boolean isPrime(long n) {
         boolean prime = true;
         for (long i = 3; i <= Math.sqrt(n); i += 2)
