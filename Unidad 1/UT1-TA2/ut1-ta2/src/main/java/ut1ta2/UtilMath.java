@@ -6,10 +6,13 @@ package ut1ta2;
 public final class UtilMath {
 
     public static void main(String[] args) {
+        int numero1 = 3;
+        int resultado1 = factorial(numero1);
+        System.out.println(resultado1);
 
-        int numero = 7;
-        int resultado = suma(numero);
-        System.out.println(resultado);
+        int numero2 = 7;
+        int resultado2 = suma(numero2);
+        System.out.println(resultado2);
         System.out.println("Hello World!");
     }
 
