@@ -1,0 +1,5 @@
+una vez el codigo ejecutado, ninguno de los objetos es candidato a ser borrado.
+Esto a que los dos objetos siguen siendo referenciados.
+
+En java no se borran objetos directamente sino que se debe eliminar toda referencia en el codigo para que garbage collector lo elimine.
+

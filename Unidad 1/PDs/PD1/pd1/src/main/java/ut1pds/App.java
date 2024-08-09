@@ -18,4 +18,9 @@ public final class App {
         double result = multisuma.multsuma(numero1,numero2,numero3);
         System.out.println(result);
     }
+
+    
+        
 }
+
+
