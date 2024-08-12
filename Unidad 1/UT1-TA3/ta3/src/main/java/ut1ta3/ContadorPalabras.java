@@ -36,7 +36,6 @@ public class ContadorPalabras {
                     contador++;
                     bandera = false;
                 }
-
             }
 
 
