@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class LectorArchivos {
-  public String[] contarLineasArchivo(String nombreCompletoArchivo){
+  public String[] obtenerLineas(String nombreCompletoArchivo){
     FileReader fr;
     String[] lineas = null;
     try {
@@ -47,4 +47,14 @@ public class LectorArchivos {
     System.out.println("Archivo leido satisfactoriamente");
     return lineas;
   }
+
+  public int cantPalabras (String[] lineasArchivo){
+    int cantidadPalabras = 0;
+    for (int i =0; i < lineasArchivo.length; i++){
+        ContadorPalabras contPal = new ContadorPalabras();
+        cantidadPalabras += contPal.contadorPalabras(lineasArchivo[i]);
+
+    }
+    return cantidadPalabras;
+}
 }

@@ -112,17 +112,4 @@ public class ContadorPalabras {
         return contadorPalabras;
     }
 
-
-    public int cantPalabras (String[] lineasArchivo){
-        int cantidadPalabras = 0;
-        for (int i =0; i < lineasArchivo.length; i++){
-            ContadorPalabras contPal = new ContadorPalabras();
-            cantidadPalabras += contPal.contadorPalabras(lineasArchivo[i]);
-
-        }
-        return cantidadPalabras;
-    }
-
-
-
 }
