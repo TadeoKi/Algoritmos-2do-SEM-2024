@@ -8,7 +8,7 @@ import java.io.IOException;
 public class LectorArchivos {
   public String[] contarLineasArchivo(String nombreCompletoArchivo){
     FileReader fr;
-
+    String[] lineas = null;
     try {
       fr = new FileReader(nombreCompletoArchivo);
       BufferedReader br = new BufferedReader(fr);
@@ -27,7 +27,7 @@ public class LectorArchivos {
       fr = new FileReader(nombreCompletoArchivo);
       BufferedReader br2 = new BufferedReader(fr);
 
-      String[] lineas = new String[contadorLineas];
+      lineas = new String[contadorLineas];
       
       for (int i = 0; i<contadorLineas; i++) {
         String linea = br.readLine();
@@ -36,8 +36,7 @@ public class LectorArchivos {
       fr.close();
       br2.close();
 
-    }
-    catch (FileNotFoundException e) {
+    } catch (FileNotFoundException e) {
       System.out.println("Error al leer el archivo "+nombreCompletoArchivo);
       e.printStackTrace();
     } catch (IOException e)
