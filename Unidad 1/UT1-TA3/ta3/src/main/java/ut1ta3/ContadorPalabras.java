@@ -4,7 +4,17 @@ package ut1ta3;
 // Si se cumple, se guarda el boolean en una bandera. Si la bandera es true y el digito actual no es un caracter entonces se suma uno al 
 // contador de palabras. Al final se analiza si el ultimo digito es una palabra, 
 // si es así nuevamente se suma uno (para abarcar casos que la frase solo tiene una palabra o termina en un caracter que no es letra o numero).
-//  Luego se retorna el contador con el total de palabras.  
+//  Luego se retorna el contador con el total de palabras. 
+
+// Precondición: El minimo debe ser mayor a 0
+//
+//Se utilizan la misma bandera que en el programa de contar palabras. 
+// Si la bandera es true, es decir, si es dígito o número, 
+// entonces cuenta el número de caracteres hasta que cambie el valor a false (ya no es palabra). 
+// Luego se compara con el mínimo, si es mayor, se suma uno al contador de palabras. 
+// Luego se resetea el contador y continúa el for. 
+// Al final se vuelve analizar si el último caracter es letra o numero (para considerar el caso que la frase termine con una palabra), 
+// si es así se suma y se compara el contador como se explicó anteriormente. 
 
 public class ContadorPalabras {
     public int contadorPalabras(String frase){
