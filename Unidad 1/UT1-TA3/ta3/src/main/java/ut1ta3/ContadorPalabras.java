@@ -1,5 +1,10 @@
 package ut1ta3;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 // Consideramos una palabra si tiene al menos un caracter o numero. Recorro caracter a caracter y analizo es un digito o numero o no. 
 // Si se cumple, se guarda el boolean en una bandera. Si la bandera es true y el digito actual no es un caracter entonces se suma uno al 
 // contador de palabras. Al final se analiza si el ultimo digito es una palabra, 
@@ -107,6 +112,18 @@ public class ContadorPalabras {
         }
         return contadorPalabras;
     }
+
+
+    public int cantPalabras (String[] lineasArchivo){
+        int cantidadPalabras = 0;
+        for (int i =0; i < lineasArchivo.length; i++){
+            ContadorPalabras contPal = new ContadorPalabras();
+            cantidadPalabras += contPal.contadorPalabras(lineasArchivo[i]);
+
+        }
+        return cantidadPalabras;
+    }
+
 
 
 }
