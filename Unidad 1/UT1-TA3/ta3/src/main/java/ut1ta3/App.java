@@ -27,5 +27,9 @@ public final class App {
        System.out.println(contador.contadorConsonantes("Holanda e Inglaterra"));
        System.out.println(contador.contadorConsonantes("Holanda3456"));
        System.out.println(contador.contadorConsonantes("HJLPKR"));
+
+       System.out.println(contador.contadorPalabrasMin("Hola", 2));
+       System.out.println(contador.contadorPalabrasMin("Hola de nuevo", 3));
+       System.out.println(contador.contadorPalabrasMin("Hola", -2));
     }
 }

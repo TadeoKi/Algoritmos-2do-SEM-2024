@@ -64,6 +64,10 @@ public class ContadorPalabras {
         return contadorVocal;
     }
 
+    /*
+     * Faltaria una documentacion JavaDoc
+     *  
+     */
     public static int contadorPalabrasMin(String frase, int largoMin){
         int contadorPalabras= 0;
         int contadorLetras = 0;
