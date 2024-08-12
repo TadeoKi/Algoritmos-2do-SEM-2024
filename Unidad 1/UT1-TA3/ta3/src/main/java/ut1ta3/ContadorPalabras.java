@@ -26,7 +26,37 @@ public class ContadorPalabras {
         return contador;
     }
 
+    public int contadorConsonantes(String fraseoriginal){
+        String frase = fraseoriginal.toLowerCase();
+        int contadorConsonante= 0;
+        String vocales = "aeiouáéíóú";
+        for (int i=0 ; i < frase.length() ; i++){
+            
+            if (Character.isLetter(frase.charAt(i))){
+                if(vocales.indexOf(frase.charAt(i)) == -1){
+                    contadorConsonante++;
+                }
+            }
+        }
+        
+        return contadorConsonante;
+    }
 
+    public int contadorVocales(String fraseoriginal){
+        String frase = fraseoriginal.toLowerCase();
+        int contadorVocal= 0;
+        String vocales = "aeiouáéíóú";
+        for (int i=0 ; i < frase.length() ; i++){
+            
+            if (Character.isLetter(frase.charAt(i))){
+                if(vocales.indexOf(frase.charAt(i)) != -1){
+                    contadorVocal++;
+                }
+            }
+        }
+        
+        return contadorVocal;
+    }
 
 
 }

@@ -18,5 +18,14 @@ public final class App {
        System.out.println(contador.contadorPalabras("Hola 12345"));
        System.out.println(contador.contadorPalabras("Hola___3!---45"));
 
+       System.out.println(contador.contadorVocales("Hola"));
+       System.out.println(contador.contadorVocales("Holanda e Inglaterra"));
+       System.out.println(contador.contadorVocales("Holanda3456"));
+       System.out.println(contador.contadorVocales("HJLPKR"));
+
+       System.out.println(contador.contadorConsonantes("Hola"));
+       System.out.println(contador.contadorConsonantes("Holanda e Inglaterra"));
+       System.out.println(contador.contadorConsonantes("Holanda3456"));
+       System.out.println(contador.contadorConsonantes("HJLPKR"));
     }
 }
