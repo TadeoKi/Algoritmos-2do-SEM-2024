@@ -1,0 +1,27 @@
+package ut1pds;
+
+/**
+ * Hello world!
+ */
+public final class App {
+    private App() {
+    }
+
+    /**
+     * Says hello to the world.
+     * @param args The arguments of the program.
+     */
+    public static void main(String[] args) {
+        ContadorPalabras contador = new ContadorPalabras();
+
+        System.out.println(contador.contadorVocales("Hola"));
+        System.out.println(contador.contadorVocales("Holanda e Inglaterra"));
+        System.out.println(contador.contadorVocales("Holanda3456"));
+        System.out.println(contador.contadorVocales("HJLPKR"));
+
+        System.out.println(contador.contadorConsonantes("Hola"));
+        System.out.println(contador.contadorConsonantes("Holanda e Inglaterra"));
+        System.out.println(contador.contadorConsonantes("Holanda3456"));
+        System.out.println(contador.contadorConsonantes("HJLPKR"));
+    }
+}

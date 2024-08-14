@@ -1,0 +1,28 @@
+● substring – en todas sus variantes
+retorna un substring del original, hay que indicarle el indice de inicio del substring y se puede pasar el indice final.
+EN caso de no pasarle un indice final, se realizara el substring hasta el final del string original
+● split – en todas sus variantes 
+Separa un string en dos o varios strings nuevos los cuales se almacenan en un array de strigns.
+● subSequence
+parecido al substring pero en secuencias de caracteres. hay que pasarle indice inicial y final.
+● trim
+elimina espacios en blanco al principio y final de un string.
+● toLowerCase 
+● toUpperCase
+devuelven una copia del string original, poniendo o quitando todo a mayuscula o minuscula.
+● indexOf – en todas sus variantes, que son muchas y muy poderosas
+busca las primera coincidencia con el parametro dado que puede ser un char o un string y devuelve el indice donde lo encontro.
+Tambien se le puede pasar un indice de comienzo de busqueda.
+
+● lastIndexOf – ídem
+lo mismo que el anterior pero devuelve la ultima coincidencia
+● contains 
+devuelve un booleano si el char marcado esta contenido dentro del string
+● replace– en todas sus variantes
+reemplaza un viejo char o charsequence literal que le marquemos por uno nuevo en el string original y nos devuelve un nuevo string.
+
+● replaceAll– en todas sus variantes
+reemplaza todas las substrings que coincidan con la nueva especificada.
+
+● replaceFirst
+reemplza la primera substring que coincida con los parametros dados de target y new string.

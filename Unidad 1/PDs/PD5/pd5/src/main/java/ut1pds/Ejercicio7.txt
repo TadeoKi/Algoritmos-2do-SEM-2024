@@ -1,0 +1,22 @@
+● Todos los constructores
+StringBuilder()	Crea un stringBuilder vacio con 16 elementos vacios.
+StringBuilder(CharSequence cs)	Crea un stringBuilder con la secuencia especificada mas 16 elementos vacios.
+StringBuilder(int initCapacity)	Crea un stringBuilder con la capacidad inicial especificada.
+StringBuilder(String s)	Crea un stringBuilder con valor inicial del string marcado, mas 16 elementos vacios.
+
+● setLength 
+modifica la longitud, si es mayor a la actual añade nulos.
+● ensureCapacity 
+establece un minimo de capacidad para el stringbuilder
+● append 
+añade el parametro al final del stringbuilder
+● insert 
+se le indica el parametro offset y el parametro a agregar, este ultimo e añade en la posicion indicada por offset y se representa por un string.
+● delete 
+se le pasa principio y final, este metodo elimina la subsecuencia de caracteres en los indices marcados.
+● deleteCharAt
+borra caracter en el indice marcado
+● reverse
+da vuelta o invierte la secuencia de caracteres
+
+
