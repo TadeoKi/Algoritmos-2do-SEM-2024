@@ -1,0 +1,1 @@
+En java los operadores == y != compara las referencias a memorias y no el contenido en si. Para comprar strings se debería usar el método equals. En C# si compararía el contenido de los strings por lo que llegaría a sumarse esos strings llegando a ser iguales y ser comparados entre si por su valor.

@@ -1,0 +1,8 @@
+EL primer código devuelve true ya que s1 y s2 referencian a una misma cadena idéntica. Sin embargo, en el segundo código al usar un new, se fuerza la creación de una cadena distinta. Por mas que contengan lo mismo, su ubicación en memoria es distinta y por lo que comentamos en el primer ejercicio al compararse no son iguales por lo que devuelve false.
+
+Un código para el ejercicio de 1 corregido es:
+
+String s = "1";
+while (!s.equals("1000")) {
+    s += "0";
+}

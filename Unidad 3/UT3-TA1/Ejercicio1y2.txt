@@ -1,0 +1,21 @@
+public static int enRango (int[] a, int bajo, int alto) {
+	int contador = 0;					O(1)
+	for (int i=0; i<a.length; i++) {			0(1)+O(n)
+		if (a[i] >= bajo && a[i] < alto)		[O(1)+O(1)]
+			contador++;				O(1)
+	}
+	return contador; O(1)
+}
+
+Suma: O(n)
+
+
+unaFunción ( N de tipo entero)
+ 	i  1			O(1)
+ 	j  N			O(1)
+ 	mientras i < N hacer      O(1)
+ 		j  N – 1     O(1)		TIENE CRECIMIENTO EXPONENCIAL POR LO QUE 
+ 		i  i * 2	O(1)
+ 	fin mientras
+ 	devolver (j)
+fin
