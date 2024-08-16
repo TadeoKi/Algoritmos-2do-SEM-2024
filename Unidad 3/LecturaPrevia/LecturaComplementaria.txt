@@ -1,0 +1,28 @@
+Lectura complementaria
+
+-Tipos de datos abstractos, Listas :
+http://es.wikipedia.org/wiki/Tipo_de_dato_abstracto
+http://en.wikipedia.org/wiki/Linked_list
+http://es.wikipedia.org/wiki/Lista_(estructura_de_datos)
+
+-Tutorial sobre Estándares de Codificación en Java:
+http://www.aves.edu.co/ovaunicor/recursos/1/estandar_java.swfWikipedia
+
+-Libro “Estructuras de datos en Java”, Mark Allen Weiss
+Capítulo 6, páginas 137 a 147
+Capítulo 16, páginas 415 a 431
+Capítulo 15, páginas 395 a 411
+
+-Oracle Java Collections Tutorial
+Interfaz List: https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html
+
+-Implementaciones de la interfaz List: https://docs.oracle.com/javase/tutorial/collections/implementations/list.html
+
+-Java Collections (ArrayList y LinkedList)
+http://www.vogella.com/tutorials/JavaCollections/article.html#javacollections
+http://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+http://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html
+
+-Implementación de ArrayList y LinkedList en Java
+http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/util/ArrayList.java
+http://grepcode.com/file/repository.grepcode.com/java/root/jdk/openjdk/6-b14/java/util/LinkedList.java
